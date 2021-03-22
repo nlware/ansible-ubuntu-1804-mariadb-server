@@ -1,0 +1,6 @@
+# handlers file for ubuntu-1804-mariadb-server
+---
+- name: restart mariadb-server
+  service:
+    name: mysql
+    state: restarted

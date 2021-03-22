@@ -1,0 +1,12 @@
+# tasks file for ubuntu-1804-mariadb-server
+---
+
+- include: install.yml
+
+- include: configure.yml
+
+- name: start and enable service
+  service:
+    name: mysql
+    state: started
+    enabled: true
