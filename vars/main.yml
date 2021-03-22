@@ -1,0 +1,5 @@
+# vars file for ubuntu-1804-mariadb-server
+---
+ubuntu_1804_mariadb_server_dependencies:
+  - mariadb-client
+  - mariadb-server

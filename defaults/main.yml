@@ -1,0 +1,9 @@
+# defaults file for ubuntu-1804-mariadb-server
+---
+ubuntu_1804_mariadb_server_certificates_present: {}
+
+ubuntu_1804_mariadb_server_certificates_absent: []
+
+ubuntu_1804_mariadb_server_configuration_files_present: {}
+
+ubuntu_1804_mariadb_server_configuration_files_absent: []
